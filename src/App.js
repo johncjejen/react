@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Greeting from './components/pure/greeting';
 import GreetingF from './components/pure/greetingF';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/*componente propio greeting.jsx*/}
         {/*<Greeting name='John'></Greeting>*/}
-        <GreetingF name='John'></GreetingF>
+        {/*<GreetingF name='John'></GreetingF>*/}
+        <TaskListComponent></TaskListComponent>
       </header>
     </div>
   );
